@@ -27,6 +27,7 @@ jobs:
           repository: horizon-ai-ai/portal-fe
           ref: dev
           path: portal-fe
+          token: ${{ secrets.SOURCE_REPO_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
